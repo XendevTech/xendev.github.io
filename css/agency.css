@@ -176,14 +176,14 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-logo {
     background-image: url(".../img/xendev-logo;");
     max-height: 45px;
-    max-width: 30px;
+    max-width: 27px;
   }
 }
 
 header.masthead {
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/header-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
