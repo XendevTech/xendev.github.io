@@ -1,5 +1,5 @@
 // Styling for the timeline section
-.timeline {
+.timeline {  
   position: relative;
   padding: 0;
   list-style: none;
@@ -11,7 +11,7 @@
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: $gray-200;
+    background-color: $gray-400;
   }
   > li {
     position: relative;
@@ -53,7 +53,7 @@
       margin-left: 0;
       text-align: center;
       color: white;
-      border: 7px solid $gray-200;
+      border: 7px solid $gray-400;
       border-radius: 100%;
       background-color: $primary;
       h4 {

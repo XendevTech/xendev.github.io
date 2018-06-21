@@ -414,7 +414,7 @@ header.masthead .intro-text .intro-heading {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #ced4da;
 }
 
 .timeline > li {
@@ -463,7 +463,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #ced4da;
   border-radius: 100%;
   background-color: #0977b2;
 }
@@ -609,7 +609,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }

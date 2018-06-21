@@ -4,8 +4,4 @@ This is an open source Bootstrap theme adapted from the Start Bootstrap - Agency
 
 * https://startbootstrap.com
 
-Created with Start Bootstrap by [David Miller](http://davidmiller.io/), Owner of [Blackrock Digital](http://blackrockdigital.io/), based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2018 Xendev
+Created using the Start Bootstrap - Agency theme by [David Miller](http://davidmiller.io/), Owner of [Blackrock Digital](http://blackrockdigital.io/), based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
