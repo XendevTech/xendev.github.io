@@ -1,5 +1,6 @@
 // Styling for the navbar
 #mainNav {
+
   background-color: $gray-900;
   .navbar-toggler {
     font-size: 12px;
@@ -12,15 +13,22 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $primary;
+    color: $white;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($white, 10%);
     }
   }
+
+  .navbar-logo {
+    background-image: url('.../img/xendev-logo;');
+    max-height: 50px;
+    max-width: 45px;
+  }
+
   .navbar-nav {
     .nav-item {
       .nav-link {
@@ -67,6 +75,11 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      }
+      .navbar-logo {
+        background-image: url('.../img/xendev-logo;');
+        max-height: 45px;
+        max-width: 30px;
       }
     }
   }
