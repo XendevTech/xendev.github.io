@@ -586,6 +586,71 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.icon-size {
+  font-size: 4em;
+}
+
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  padding-top: .2em;
+}
+
+.icon-stack-1x,
+.icon-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.icon-stack-1x {
+  line-height: inherit;
+}
+
+.icon-stack-2x {
+  font-size: 4em;
+}
+
+@media (max-width: 991px) {
+  .icon-size {
+    font-size: 2em;
+  }
+  .icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    padding-top: 0em;
+  }
+  .icon-stack-1x,
+  .icon-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .icon-stack-1x {
+    line-height: inherit;
+  }
+  .icon-stack-2x {
+    font-size: 2em;
+  }
+  .timeline-heading-2 h4 {
+    margin-top: 2.5em;
+    color: inherit;
+  }
+  .timeline-heading-2 h4.subheading {
+    text-transform: none;
+  }
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;

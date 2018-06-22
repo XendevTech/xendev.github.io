@@ -1,5 +1,5 @@
 // Styling for the timeline section
-.timeline {  
+.timeline {
   position: relative;
   padding: 0;
   list-style: none;
@@ -92,6 +92,7 @@
       }
     }
   }
+
   .timeline-body {
      > ul,
     > p {
@@ -172,6 +173,83 @@
       }
       &.timeline-inverted > .timeline-panel {
         padding: 0 100px 20px 20px;
+      }
+    }
+  }
+}
+
+
+
+//About section timelines ICON adjustments
+
+.icon-size {
+  font-size: 4em;
+}
+
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  //padding helps center icon vertically on large screens
+  padding-top: .2em;
+}
+
+.icon-stack-1x,
+.icon-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.icon-stack-1x {
+  line-height: inherit;
+}
+.icon-stack-2x {
+  font-size: 4em;
+}
+
+//small and mobile screens to have a different icon size
+@media(max-width:991px) {
+
+  .icon-size {
+    font-size: 2em;
+  }
+
+  .icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    //remove icon top padding on small screens
+    padding-top: 0em;
+  }
+
+  .icon-stack-1x,
+  .icon-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .icon-stack-1x {
+    line-height: inherit;
+  }
+  .icon-stack-2x {
+    font-size: 2em;
+  }
+
+  //margin top for "how may we help you" section-heading
+  .timeline-heading-2 {
+    h4 {
+      margin-top: 2.5em;
+      color: inherit;
+      &.subheading {
+        text-transform: none;
       }
     }
   }
